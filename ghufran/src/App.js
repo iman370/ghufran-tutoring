@@ -11,6 +11,7 @@ import Proof from "./components/Proof";
 import ChildSafety from "./components/ChildSafety";
 import Pricing from "./components/Pricing";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 const MainPage = () => {
   return (
@@ -28,6 +29,7 @@ const MainPage = () => {
 const App = () => {
   let routes = useRoutes([
     { path: "/", element: <MainPage /> },
+    { path: "/contact", element: <Contact /> },
   ]);
   return routes;
 };

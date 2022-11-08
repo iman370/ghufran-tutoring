@@ -373,3 +373,68 @@ code {
   border-radius: 25px;
   font-family: 'Cormorant Garamond';
 }
+
+/* CONTACT */
+#contact-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #e3b379;
+  display: block;
+}
+
+#contact-container #navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  width: 100%;
+  top: 0;
+  z-index:100;
+}
+
+#contact-container #navbar #logo {
+  padding-left: 2rem;
+  color: #000;
+}
+
+#contact-container #navbar #buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 2rem;
+  flex: 1;
+}
+
+#contact-container #navbar #buttons .button {
+  color: #000;
+  font-size: 1.5rem;
+  font-family: 'Cormorant Garamond';
+}
+
+#contact-container #content {
+  padding: 20%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+  justify-items: center;
+  align-items: stretch;
+}
+
+#contact-container #content #content1 {
+  width: 50%;
+  align-items: center;
+}
+
+#contact-container #content #content2 {
+  width: 50%;
+  align-items: center;
+}
+
+#contact-container #content h1 {
+  color: #000;
+  font-size: 2.4rem;
+}
+
+#contact-container #content p {
+  color: #000;
+  font-size: 1.8rem;
+}
