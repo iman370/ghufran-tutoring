@@ -268,3 +268,73 @@ code {
   font-size: 3rem;
   text-align: left;
 }
+
+/* PRICING */
+#pricing-container {
+  min-height: 40vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-column-gap: 10px;
+  grid-row-gap: 40px;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+#pricing-container #content1 {
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+#pricing-container #content1 h1 {
+  color: #000;
+  font-size: 3rem;
+  text-align: left;
+}
+
+#pricing-container #content1 h1 b {
+  color: #67688e;
+  font-size: 3rem;
+}
+
+#pricing-container #content1 p {
+  color: #000;
+  font-size: 1.3rem;
+  text-align: left;
+}
+
+#pricing-container #content2 {
+  padding-top: 10%;
+  padding-right: 10%;
+}
+
+#pricing-container #content2 h1 {
+  color: #000;
+  font-size: 2.2rem;
+  text-align: left;
+}
+
+#pricing-container #content2 h1 b {
+  color: #e3b379;
+  font-size: 2.2rem;
+}
+
+#pricing-container #content3 {
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+#pricing-container #content4 {
+  padding-right: 10%;
+}
+
+#pricing-container #content4 h1 {
+  color: #67688e;
+  font-size: 2.2rem;
+  text-align: left;
+  text-decoration: underline;
+}

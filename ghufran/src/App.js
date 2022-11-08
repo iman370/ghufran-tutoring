@@ -9,6 +9,7 @@ import Landing from "./components/Landing";
 import Subjects from "./components/Subjects";
 import Proof from "./components/Proof";
 import ChildSafety from "./components/ChildSafety";
+import Pricing from "./components/Pricing";
 
 const MainPage = () => {
   return (
@@ -17,6 +18,7 @@ const MainPage = () => {
       <Subjects />
       <Proof />
       <ChildSafety />
+      <Pricing />
     </div>
   );
 }
