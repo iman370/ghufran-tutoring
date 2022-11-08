@@ -102,4 +102,36 @@ code {
   height: 40vh;
   width: 100%;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+#subjects-container #content {
+  width: 70%;
+  align-self: center;
+
+}
+
+#subjects-container #content h1 {
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+#subjects-container #content #image-tray {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#subjects-container #content #image-tray .subject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#subjects-container #content #image-tray .subject .image {
+  height: 10rem;
+  width: 10rem;
 }
