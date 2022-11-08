@@ -338,3 +338,10 @@ code {
   text-align: left;
   text-decoration: underline;
 }
+
+#pricing-container #content4 p {
+  font-style: italic;
+  color: #000;
+  font-size: 1.3rem;
+  text-align: right;
+}

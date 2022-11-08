@@ -10,6 +10,7 @@ import Subjects from "./components/Subjects";
 import Proof from "./components/Proof";
 import ChildSafety from "./components/ChildSafety";
 import Pricing from "./components/Pricing";
+import Footer from "./components/Footer";
 
 const MainPage = () => {
   return (

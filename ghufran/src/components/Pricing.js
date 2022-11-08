@@ -12,7 +12,8 @@ function Pricing() {
             </div>
             <div id="content3"/>
             <div id="content4">
-                <h1>I charge below £30/hour, first session is a preliminary assessment.</h1>
+                <h1>I charge 20/hour, first session is a preliminary assessment.</h1>
+                <p>20 minute preliminary interview is conducted free of charge.</p>
             </div>
         </div>
     )
