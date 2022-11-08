@@ -6,11 +6,13 @@ import {
 } from "react-router-dom";
 
 import Landing from "./components/Landing";
+import Subjects from "./components/Subjects";
 
 const MainPage = () => {
   return (
     <div id="website-container">
       <Landing />
+      <Subjects />
     </div>
   );
 }

@@ -39,7 +39,7 @@ code {
   align-items: center;
   background-image: url('./images/landing_image.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; /* mess with this later */
   background-size: cover;
 }
 
@@ -97,3 +97,9 @@ code {
   font-family: 'Cormorant Garamond';
 }
 
+/* SUBJECTS */
+#subjects-container {
+  height: 40vh;
+  width: 100%;
+  background-color: #ffffff;
+}
