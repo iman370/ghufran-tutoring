@@ -20,6 +20,7 @@ const MainPage = () => {
       <Proof />
       <ChildSafety />
       <Pricing />
+      <Footer />
     </div>
   );
 }
