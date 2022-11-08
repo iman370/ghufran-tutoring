@@ -7,12 +7,14 @@ import {
 
 import Landing from "./components/Landing";
 import Subjects from "./components/Subjects";
+import Proof from "./components/Proof";
 
 const MainPage = () => {
   return (
     <div id="website-container">
       <Landing />
       <Subjects />
+      <Proof />
     </div>
   );
 }

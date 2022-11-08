@@ -135,3 +135,61 @@ code {
   height: 10rem;
   width: 10rem;
 }
+
+/* ACTIVE RECALL PROOF */
+
+#proof-container {
+  min-height: 50vh;
+  width: 100%;
+  background-color: #67688e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#proof-container #content1 {
+  width: 45%;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-bottom: 10%;
+  padding-right: 5%;
+}
+
+#proof-container #content1 h1 {
+  color: #e3b379;
+  text-align: left;
+  font-size: 2.6rem;
+}
+
+#proof-container #content1 h2 {
+  color: #ffffff;
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+#proof-container #content1 b {
+  color: #e3b379;
+  font-size: 1.4rem;
+}
+
+#proof-container #content2 {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-bottom: 10%;
+  padding-right: 10%;
+}
+
+#proof-container #content2 .image {
+  height: 17rem;
+  width: 26rem;
+}
+
+#proof-container #content2 h2 {
+  color: #ffffff;
+  text-align: left;
+  font-size: 1.4rem;
+}
