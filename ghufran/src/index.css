@@ -198,12 +198,13 @@ code {
 #childsafety-container {
   min-height: 50vh;
   width: 100%;
+  overflow: hidden;
   background-color: #000;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+  grid-row-gap: 40px;
   justify-items: stretch;
   align-items: stretch;
 }
