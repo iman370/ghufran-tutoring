@@ -387,6 +387,7 @@ code {
   flex-direction: row;
   justify-content: space-between; 
   width: 100%;
+  position: fixed;
   top: 0;
   z-index:100;
 }
