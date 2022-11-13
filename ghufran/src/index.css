@@ -6,6 +6,7 @@ body {
   font-family: 'Cormorant Garamond', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
@@ -100,7 +101,7 @@ code {
 
 /* SUBJECTS */
 #subjects-container {
-  height: 40vh;
+  min-height: 40vh;
   width: 100%;
   background-color: #ffffff;
   display: flex;
@@ -135,6 +136,15 @@ code {
 #subjects-container #content #image-tray .subject .image {
   height: 10rem;
   width: 10rem;
+}
+
+/* mobile support */
+@media only screen and (max-width: 640px) {
+  #subjects-container #content #image-tray {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
 /* ACTIVE RECALL PROOF */
@@ -193,6 +203,27 @@ code {
   color: #ffffff;
   text-align: left;
   font-size: 1.4rem;
+}
+
+/* mobile support */
+@media only screen and (max-width: 640px) {
+  #proof-container {
+    min-height: 45vh;
+    width: 100%;
+    background-color: #67688e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #proof-container #content1, #content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+  }
 }
 
 /* CHILD SAFETY */
@@ -268,6 +299,34 @@ code {
   color: #e3b379;
   font-size: 3rem;
   text-align: left;
+}
+
+/* mobile support */
+@media only screen and (max-width: 640px) {
+  #childsafety-container {
+    min-height: 50vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #childsafety-container #content2 { /* BUGGGG */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+  }
+
+  #childsafety-container #content3 h1 {
+    text-align: left;
+  }
+  
+  #childsafety-container #content4 h1 {
+    text-align: right;
+  }
 }
 
 /* PRICING */
@@ -347,12 +406,24 @@ code {
   text-align: right;
 }
 
+/* mobile support */
+@media only screen and (max-width: 640px) {
+  #pricing-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #pricing-container #content2 {
+    justify-content: center;
+  }
+}
+
 /* FOOTER */
 
 #footer-container {
   background-color: #e3b379;
   width: 100%;
-  height: 50vh;
+  min-height: 50vh;
   /*
   align-items: center;
   display: flex;
@@ -392,6 +463,15 @@ code {
   height: 50px;
   border-radius: 25px;
   font-family: 'Cormorant Garamond';
+}
+
+/* mobile support */
+@media only screen and (max-width: 640px) {
+  #footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 /* CONTACT */
