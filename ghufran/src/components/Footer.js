@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Button } from '@mui/material';
 
 function Footer() {
-    let navigate = useNavigate()
+    let navigate = useNavigate();
     return(
         <div id="footer-container">
             <div id="content1"></div>
