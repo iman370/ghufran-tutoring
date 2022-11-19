@@ -18,11 +18,11 @@ function Contact() {
             <div id="content">
                 <div id="content1">
                     <h1>Contact</h1>
-                    <p>Tutoring is available Saturday and Sunday, 12pm to 5pm.</p>
+                    <p>Tutoring is available Saturday and Sunday, 10am to 4pm.</p>
                 </div>
                 <div id="content2">
-                    <h1>Whatsapp +44 xxxx xxx xxx</h1>
-                    <p>Students are taught over Microsoft Teams, although printable versions of worksheets are provided for you to print at home.</p>
+                    <h1>Whatsapp +44 7542 357 429</h1>
+                    <p>Students are taught over Google Classroom, although printable versions of worksheets are provided for you to print at home.</p>
                 </div>
             </div>
         </div>
