@@ -1,9 +1,15 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@mui/material';
+import { useEffect } from "react";
 
 function Contact() {
     let navigate = useNavigate()
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return(
         <div id="contact-container">
             <div id="navbar">
