@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@mui/material';
+import Fade from 'react-reveal/Fade';
 
 function Landing() {
     let navigate = useNavigate()
@@ -16,9 +17,13 @@ function Landing() {
             </div>
         </div>
         <div id="content">
-            <h1>Better Learning For Your Child<br/>With Science-Backed Education.</h1>
+            <Fade top>
+                <h1>Better Learning For Your Child<br/>With Science-Backed Education.</h1>
+            </Fade>
             <div className='divider-small' />
-            <Button className='button' onClick={() => navigate('../contact')}>Contact Now</Button>
+            <Fade top>
+                <Button className='button' onClick={() => navigate('../contact')}>Contact Now</Button>
+            </Fade>
         </div>
       </div>
     );
