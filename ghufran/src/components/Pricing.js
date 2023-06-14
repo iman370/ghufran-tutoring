@@ -12,7 +12,8 @@ function Pricing() {
             </div>
             <div id="content3"/>
             <div id="content4">
-                <h1>I charge £20/hour.</h1>
+                <h1>GCSE (Science/Maths) - £20/h</h1>
+                <h1>A Level (Science) - £30/h</h1>
                 <p>20 minute preliminary interview is conducted free of charge.</p>
             </div>
         </div>
